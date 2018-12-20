@@ -1,0 +1,17 @@
+{
+  "name": "redis-spike",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "NODE_ENV=development USE_CACHE=true node debug.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ioredis": "^4.3.0",
+    "redis-cli": "^1.1.0",
+    "redis-json-memoize": "^1.0.1"
+  }
+}
