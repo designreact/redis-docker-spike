@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "debug": "NODE_ENV=development USE_CACHE=true node debug.js",
+    "log:host": "node ./scripts/aws/cluster_endpoint.js",
     "deploy:stack": "node ./scripts/aws/create_stack.js"
   },
   "author": "",

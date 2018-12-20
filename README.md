@@ -55,3 +55,8 @@ yarn deploy:stack create $ENVIRONMENT
 ```
 yarn deploy:stack update $ENVIRONMENT
 ```
+
+### Log Redis configuration endpoint
+```
+yarn log:host $ENVIRONMENT
+```
