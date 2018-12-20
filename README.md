@@ -47,3 +47,11 @@ Zip everything up and upload to AWS lambda. Set the relevant environment variabl
 ```
 zip -r test.zip .
 ```
+
+### Deploy/Update cluster via Cloudformation
+```
+yarn deploy:stack create $ENVIRONMENT
+```
+```
+yarn deploy:stack update $ENVIRONMENT
+```

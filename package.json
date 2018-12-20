@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "debug": "NODE_ENV=development USE_CACHE=true node debug.js"
+    "debug": "NODE_ENV=development USE_CACHE=true node debug.js",
+    "deploy:stack": "node ./scripts/aws/create_stack.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,5 +14,10 @@
     "ioredis": "^4.3.0",
     "redis-cli": "^1.1.0",
     "redis-json-memoize": "^1.0.1"
+  },
+  "devDependencies": {
+    "chalk": "^2.4.1",
+    "child_process": "^1.0.2",
+    "fs-extra": "^7.0.1"
   }
 }
