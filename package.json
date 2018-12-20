@@ -12,13 +12,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ioredis": "^4.3.0",
-    "redis-cli": "^1.1.0",
-    "redis-json-memoize": "^1.0.1"
+    "ioredis": "^4.3.0"
   },
   "devDependencies": {
+    "aws-sdk": "^2.378.0",
     "chalk": "^2.4.1",
     "child_process": "^1.0.2",
-    "fs-extra": "^7.0.1"
+    "fs-extra": "^7.0.1",
+    "redis-cli": "^1.1.0"
   }
 }
